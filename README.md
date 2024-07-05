@@ -47,6 +47,8 @@ Web App for Containers is not an option if you;
 
 Web App for Containers seems like the offering that ticks most requirements in this particular scenario, you have easy out of the box HTTPS support, secure and easy networking via private endpoints with a fixed endpoint and Easy Auth support. However, every scenario is different and should be closely examined per requirements.
 
+## Web App for Containers sample
+
 To see how easy it is setting up Web App for Containers in IaC, please see my fork of the `darklynx/request-baskets` image, which includes a [bicep deploy template with Azure Deployment Environments support](https://github.com/erwinkramer/request-baskets/tree/master/bicep).
 
 ## License
