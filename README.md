@@ -9,7 +9,7 @@ In this article, the focus is running a single container image, exposed on a pri
 
 This case rules out additional tools like Application Gateways or any other ingress controllers outside of the resource, as that would not make it a fair comparison. We can also rule out Azure Kubernetes Service (AKS), as it is simply a managed Kubernetes service, which is short for: you get a whole cluster of VMs.
 
-We're adding Azure Container Instances to the comparison instead as it is suitable of running a single container image.
+We're adding Azure Container Instances to the comparison, as it is suitable for running a single container image.
 
 ## Secure traffic considerations
 
