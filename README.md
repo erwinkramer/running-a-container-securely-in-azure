@@ -38,7 +38,7 @@ Let's summarize the downsides of each offering. Container Instances are not an o
 Container Apps are not an option if you;
 
 - require to call by IP and not by FQDN, it is not possible to use IP routing via the Container Apps environment to the Container App itself if you require VNet-scoped traffic.
-- don't like the complex DNS setup it requires. It involves setting up dns zones for each Container Apps environment. To add to the complexity, each time a Container Apps environment is being built from the ground up, a new name has to be used, as there is randomness added to the FQDN.
+- don't like the DNS setup it requires, each time a Container Apps environment is being built from the ground up, a new name has to be used, as there is randomness added to the FQDN.
 - require a managed custom domain certificate while securing your ingress endpoint, it has to be accessible by the certification authority.
 
 Web App for Containers is not an option if you;
